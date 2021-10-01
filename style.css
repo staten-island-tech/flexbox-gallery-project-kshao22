@@ -1,6 +1,26 @@
 html,
 body,
 * {
-  padding: 0;
-  margin: 0;
+  padding-left: 10px;
+  margin: 15px;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+.parent {
+  font-size: 30px;
+  display: flex;
+  margin: 80px auto;
+  background-color: aquamarine;
+  box-sizing: border-box;
+  justify-content: space-between;
+  border: 3px solid blue;
+}
+.child {
+  box-sizing: border-box;
+  margin: 20px auto;
+  border: 1px solid turquoise;
+  width: 29%;
+}
+.background {
+  background-image: url(img/cfb-playoff-logo.png);
 }
