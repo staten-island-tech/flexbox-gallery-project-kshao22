@@ -21,6 +21,17 @@ body,
   border: 1px solid turquoise;
   width: 29%;
 }
-.background {
-  background-image: url(img/cfb-playoff-logo.png);
+.main-header {
+  font-size: xx-large;
+  color: brown;
+  position: relative;
+}
+.bama-img {
+  width: 300px;
+}
+.georgia-img {
+  width: 400px;
+}
+.pennstate-img {
+  width: 300px;
 }
