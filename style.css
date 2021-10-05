@@ -1,25 +1,35 @@
 html,
 body,
 * {
-  padding-left: 10px;
+  padding-left: 0px;
   margin: 15px;
   box-sizing: border-box;
   font-size: 62.5%;
 }
 .parent {
-  font-size: 30px;
+  font-size: 15px;
   display: flex;
+  justify-content: space-between;
+  flex-direction: row;
   margin: 80px auto;
   background-color: aquamarine;
   box-sizing: border-box;
-  justify-content: space-between;
   border: 3px solid blue;
+  box-shadow: 1rem 1rem 5rem rgb(19, 114, 177);
 }
 .child {
   box-sizing: border-box;
   margin: 20px auto;
   border: 1px solid turquoise;
+  border-radius: 15px;
+  justify-content: space-between;
   width: 29%;
+  margin-top: 6rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  text-align: center;
+  font-size: 3rem;
+  box-shadow: 1rem 1rem 5rem rgb(14, 199, 100);
 }
 .main-header {
   font-size: xx-large;
@@ -33,5 +43,23 @@ body,
   width: 400px;
 }
 .pennstate-img {
-  width: 300px;
+  width: 400px;
+}
+.sooners-img {
+  width: 400px;
+}
+.buckeyes-img {
+  width: 400px;
+}
+.razorbacks-img {
+  width: 400px;
+}
+.irish-img {
+  width: 400px;
+}
+.aggies-img {
+  width: 400px;
+}
+.mountaineers-img {
+  width: 400px;
 }
