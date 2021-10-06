@@ -1,8 +1,8 @@
 html,
 body,
 * {
-  padding-left: 0px;
-  margin: 15px;
+  padding: 0px;
+  margin: 30px;
   box-sizing: border-box;
   font-size: 62.5%;
 }
@@ -31,6 +31,10 @@ body,
   position: relative;
   text-align: center;
 }
+.child-2img {
+  margin-right: auto;
+  margin-left: auto;
+}
 .bama-img {
   width: 400px;
 }
@@ -38,7 +42,7 @@ body,
   width: 450px;
 }
 .pennstate-img {
-  width: 500px;
+  width: 400px;
 }
 .sooners-img {
   width: 400px;
@@ -47,7 +51,7 @@ body,
   width: 400px;
 }
 .razorbacks-img {
-  width: 500px;
+  width: 100%;
 }
 .irish-img {
   width: 400px;

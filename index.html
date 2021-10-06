@@ -1,68 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Flexbox</title>
-    </head>
 
-    <body>
-        <!-- example 1: default flexbox -->
-        <h1 class="main-header" id="header-1">NCAA College Football</h1>
-        <div class="parent parent-intro">
-            <div class="child child-1">The Alabama Crimson Tide football program represents the University of Alabama in the sport of American football. The team competes in the Football Bowl Subdivision of the National Collegiate Athletic Association and the Western Division of the Southeastern Conference.
-                <div class="child-1img">
-                    <img src="img/alabama crimson tide.png" alt="" class="bama-img">
-                </div>
-            </div>
-            <div class="child child-2">The Georgia Bulldogs football program represents the University of Georgia in the sport of American football. The Bulldogs compete in the Football Bowl Subdivision of the National Collegiate Athletic Association and the Eastern Division of the Southeastern Conference.
-                <div class="child-2img">
-                    <img src="img/georgia bulldogs.png" alt="" class="georgia-img">
-                </div>
-            </div>
-            <div class="child child-3">The Penn State Nittany Lions team represents the Pennsylvania State University in college football. The Nittany Lions compete in the NCAA Division I Football Bowl Subdivision as a member of the Big Ten Conference, which they joined in 1993 after playing as an Independent from 1892 to 1992.
-                <div class="child-3img">
-                    <img src="img/penn state nittany lions.png" alt="" class="pennstate-img">
-                </div>
-            </div>
-        </div>
-        <br/>
-        <div class="parent parent-spacing">
-            <div class="child child-4">The Oklahoma Sooners football program is a college football team that represents the University of Oklahoma. The team is a member of the Big 12 Conference, which is in Division I Football Bowl Subdivision of the National Collegiate Athletic Association.
-                <div class="child-4img">
-                    <img src="img/oklahoma sooners.png" alt="" class="sooners-img">
-                </div>
-            </div>
-            <div class="child child-5">The Ohio State Buckeyes football team competes as part of the NCAA Division I Football Bowl Subdivision, representing The Ohio State University in the East Division of the Big Ten Conference. Ohio State has played their home games at Ohio Stadium in Columbus, Ohio since 1922.
-                <div class="child-5img">
-                    <img src="img/ohio state buckeyes.png" alt="" class="buckeyes-img">
-                </div>
-            </div>
-            <div class="child child-6">The Arkansas Razorbacks football program represents the University of Arkansas in the sport of American football. The Razorbacks compete in the Football Bowl Subdivision of the National Collegiate Athletic Association and the Western Division of the Southeastern Conference.
-                <div class="child-6img">
-                    <img src="img/arkansas razorbacks.png" alt="" class="razorbacks-img">
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox</title>
+</head>
+
+<body>
+    <!-- example 1: default flexbox -->
+    <h1 class="main-header" id="header-1">NCAA College Football</h1>
+    <section class="parent parent-intro">
+        <div class="child child-1">
+            <p class="child-text">The Alabama Crimson Tide football program represents the University of Alabama in the
+                sport of American football. The team competes in the Football Bowl Subdivision of the National
+                Collegiate Athletic Association and the Western Division of the Southeastern Conference.</p>
+            <div class="child-1img">
+                <img src="img/alabama crimson tide.png" alt="" class="bama-img">
             </div>
         </div>
-        <br/>
-        <div class="parent parent-flexconstants">
-            <div class="child child-7">The Notre Dame Fighting Irish football team is the intercollegiate football team representing the University of Notre Dame in South Bend, Indiana. The team is coached by Brian Kelly and plays its home games at the campus's Notre Dame Stadium, which has a capacity of 77,622.
-                <div class="child-7img">
-                    <img src="img/notre dame fighting irish.png" alt="" class="irish-img">
-                </div>
-            </div>
-            <div class="child child-8">The Texas A&M Aggies football program represents Texas A&M University in the sport of American football. The Aggies compete in the Football Bowl Subdivision of the National Collegiate Athletic Association and the Western Division of the Southeastern Conference.
-                <div class="child-8img">
-                    <img src="img/texas a&m aggies.png" alt="" class="aggies-img">
-                </div>
-            </div>
-            <div class="child child-9">The West Virginia Mountaineers football team represents West Virginia University in the NCAA Football Bowl Subdivision of college football. West Virginia plays its home games on Mountaineer Field at Milan Puskar Stadium on the campus of West Virginia University in Morgantown, West Virginia.
-                <div class="child-9img">
-                    <img src="img/west virgina mountaineers.png" alt="" class="mountaineers-img">
-                </div>
+        <div class="child child-2">
+            <p>The Georgia Bulldogs football program represents the University of Georgia in the
+                sport of American football. The Bulldogs compete in the Football Bowl Subdivision of the National Collegiate
+                Athletic Association and the Eastern Division of the Southeastern Conference.</p>
+            <div class="child-2img">
+                <img src="img/georgia bulldogs.png" alt="" class="georgia-img">
             </div>
         </div>
-    </body>
+        <div class="child child-3">
+            <p>The Penn State Nittany Lions team represents the Pennsylvania State University in
+                college football. The Nittany Lions compete in the NCAA Division I Football Bowl Subdivision as a member of
+                the Big Ten Conference, which they joined in 1993 after playing as an Independent from 1892 to 1992.</p>
+            <div class="child-3img">
+                <img src="img/penn state nittany lions.png" alt="" class="pennstate-img">
+            </div>
+        </div>
+    </section>
+   
+    <section class="parent parent-spacing">
+        <div class="child child-4">
+            <p>The Oklahoma Sooners football program is a college football team that represents the
+                University of Oklahoma. The team is a member of the Big 12 Conference, which is in Division I Football Bowl
+                Subdivision of the National Collegiate Athletic Association.</p>
+            <div class="child-4img">
+                <img src="img/oklahoma sooners.png" alt="" class="sooners-img">
+            </div>
+        </div>
+        <div class="child child-5">
+            <P>The Ohio State Buckeyes football team competes as part of the NCAA Division I
+                Football Bowl Subdivision, representing The Ohio State University in the East Division of the Big Ten
+                Conference. Ohio State has played their home games at Ohio Stadium in Columbus, Ohio since 1922.</P>
+            <div class="child-5img">
+                <img src="img/ohio state buckeyes.png" alt="" class="buckeyes-img">
+            </div>
+        </div>
+        <div class="child child-6">
+            <P>The Arkansas Razorbacks football program represents the University of Arkansas in the
+                sport of American football. The Razorbacks compete in the Football Bowl Subdivision of the National
+                Collegiate Athletic Association and the Western Division of the Southeastern Conference.</P>
+            <div class="child-6img">
+                <img src="img/arkansas razorbacks.png" alt="" class="razorbacks-img">
+            </div>
+        </div>
+    </section>
+  
+    <section class="parent parent-flexconstants">
+        <div class="child child-7">
+            <P>The Notre Dame Fighting Irish football team is the intercollegiate football team
+                representing the University of Notre Dame in South Bend, Indiana. The team is coached by Brian Kelly and
+                plays its home games at the campus's Notre Dame Stadium, which has a capacity of 77,622.</P>
+            <div class="child-7img">
+                <img src="img/notre dame fighting irish.png" alt="" class="irish-img">
+            </div>
+        </div>
+        <div class="child child-8">
+            <p>The Texas A&M Aggies football program represents Texas A&M University in the sport of
+                American football. The Aggies compete in the Football Bowl Subdivision of the National Collegiate Athletic
+                Association and the Western Division of the Southeastern Conference.</p>
+            <div class="child-8img">
+                <img src="img/texas a&m aggies.png" alt="" class="aggies-img">
+            </div>
+        </div>
+        <div class="child child-9">
+            <p>The West Virginia Mountaineers football team represents West Virginia University in
+                the NCAA Football Bowl Subdivision of college football. West Virginia plays its home games on Mountaineer
+                Field at Milan Puskar Stadium on the campus of West Virginia University in Morgantown, West Virginia.</p>
+            <div class="child-9img">
+                <img src="img/west virgina mountaineers.png" alt="" class="mountaineers-img">
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>
