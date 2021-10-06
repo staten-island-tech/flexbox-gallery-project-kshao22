@@ -12,10 +12,7 @@ body,
   justify-content: space-between;
   flex-direction: row;
   margin: 80px auto;
-  background-color: aquamarine;
   box-sizing: border-box;
-  border: 3px solid blue;
-  box-shadow: 1rem 1rem 5rem rgb(19, 114, 177);
 }
 .child {
   box-sizing: border-box;
@@ -24,26 +21,24 @@ body,
   border-radius: 15px;
   justify-content: space-between;
   width: 29%;
-  margin-top: 6rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
   text-align: center;
   font-size: 3rem;
   box-shadow: 1rem 1rem 5rem rgb(14, 199, 100);
 }
 .main-header {
-  font-size: xx-large;
+  font-size: xxx-large;
   color: brown;
   position: relative;
+  text-align: center;
 }
 .bama-img {
-  width: 300px;
+  width: 400px;
 }
 .georgia-img {
-  width: 400px;
+  width: 450px;
 }
 .pennstate-img {
-  width: 400px;
+  width: 500px;
 }
 .sooners-img {
   width: 400px;
@@ -52,7 +47,7 @@ body,
   width: 400px;
 }
 .razorbacks-img {
-  width: 400px;
+  width: 500px;
 }
 .irish-img {
   width: 400px;
@@ -62,4 +57,7 @@ body,
 }
 .mountaineers-img {
   width: 400px;
+}
+
+.button {
 }
