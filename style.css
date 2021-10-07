@@ -2,9 +2,10 @@ html,
 body,
 * {
   padding: 0px;
-  margin: 30px;
+  margin: 0px;
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: "Raleway", sans-serif;
 }
 .parent {
   font-size: 15px;
@@ -23,23 +24,23 @@ body,
   width: 29%;
   text-align: center;
   font-size: 3rem;
-  box-shadow: 1rem 1rem 5rem rgb(14, 199, 100);
+  box-shadow: 1rem 1rem 5rem rgb(14, 72, 199);
 }
 .main-header {
   font-size: xxx-large;
-  color: brown;
+  color: darkgoldenrod;
   position: relative;
   text-align: center;
 }
-.child-2img {
-  margin-right: auto;
-  margin-left: auto;
-}
 .bama-img {
-  width: 400px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .georgia-img {
   width: 450px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .pennstate-img {
   width: 400px;
@@ -52,6 +53,8 @@ body,
 }
 .razorbacks-img {
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .irish-img {
   width: 400px;
@@ -64,4 +67,5 @@ body,
 }
 
 .button {
+  font-size: larger;
 }
