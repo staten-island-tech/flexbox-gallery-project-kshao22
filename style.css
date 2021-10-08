@@ -6,6 +6,7 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: "Raleway", sans-serif;
+  color: chartreuse;
 }
 .parent {
   font-size: 15px;
@@ -36,23 +37,30 @@ body,
   width: 350px;
   margin-top: auto;
   margin-bottom: auto;
+  top: 4rem;
+  left: 65%;
+  z-index: 2;
 }
 .georgia-img {
-  width: 450px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 425px;
+  top: 13rem;
+  left: 6rem;
+  z-index: 1;
 }
 .pennstate-img {
   width: 400px;
+  top: 20rem;
+  right: -20rem;
+  z-index: 50;
 }
 .sooners-img {
-  width: 400px;
+  width: 370px;
 }
 .buckeyes-img {
   width: 400px;
 }
 .razorbacks-img {
-  width: 100%;
+  width: 97%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -66,6 +74,13 @@ body,
   width: 400px;
 }
 
-.button {
-  font-size: larger;
+.child:hover {
+  position: relative;
+  transform: scale(1.1);
+  outline: 1rem solid rgb(8, 223, 169);
+}
+body {
+  background-image: url(img/college\ football\ cartoon.png);
+  background-attachment: fixed;
+  width: 100%;
 }
