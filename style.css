@@ -6,7 +6,7 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: "Raleway", sans-serif;
-  color: chartreuse;
+  color: rgb(6, 37, 77);
 }
 .parent {
   font-size: 15px;
@@ -74,9 +74,43 @@ body,
   width: 400px;
 }
 
-.child:hover {
+.child-1:hover {
   position: relative;
   transform: scale(1.1);
+  outline: 1rem solid rgb(8, 223, 169);
+}
+.child-2:hover {
+  position: relative;
+  transform: skew(5deg);
+  outline: 1rem solid rgb(8, 223, 169);
+}
+.child-3:hover {
+  position: relative;
+  transform: scale();
+  opacity: 0.3;
+  outline: 1rem solid rgb(8, 223, 169);
+}
+.child-4:hover {
+  position: relative;
+  transform: rotate(90deg);
+  outline: 1rem solid rgb(8, 223, 169);
+}
+.child-5:hover {
+  position: relative;
+  transform: rotate(-90deg);
+  outline: 1rem solid rgb(8, 223, 169);
+}
+.child-6:hover {
+  position: relative;
+  transform: translate(10px, 15px);
+}
+.child-7:hover {
+  position: relative;
+  transform: rotate(180deg);
+}
+.child-8:hover {
+  position: relative;
+  transform: skew(-5deg);
   outline: 1rem solid rgb(8, 223, 169);
 }
 body {
