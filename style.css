@@ -113,8 +113,15 @@ body,
   transform: skew(-5deg);
   outline: 1rem solid rgb(8, 223, 169);
 }
+.child-9:hover {
+  position: relative;
+  transform: translate(-10px, -15px);
+}
 body {
   background-image: url(img/college\ football\ cartoon.png);
   background-attachment: fixed;
   width: 100%;
+}
+.button {
+  font-size: 6rem;
 }
