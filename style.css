@@ -34,7 +34,7 @@ body,
   text-align: center;
 }
 .bama-img {
-  width: 350px;
+  width: 310px;
   margin-top: auto;
   margin-bottom: auto;
   top: 4rem;
@@ -42,13 +42,13 @@ body,
   z-index: 2;
 }
 .georgia-img {
-  width: 425px;
+  width: 375px;
   top: 13rem;
   left: 6rem;
-  z-index: 1;
+  z-index: 50;
 }
 .pennstate-img {
-  width: 400px;
+  width: 350px;
   top: 20rem;
   right: -20rem;
   z-index: 50;
@@ -57,21 +57,21 @@ body,
   width: 370px;
 }
 .buckeyes-img {
-  width: 400px;
+  width: 335px;
 }
 .razorbacks-img {
-  width: 97%;
+  width: 85%;
   margin-right: auto;
   margin-left: auto;
 }
 .irish-img {
-  width: 400px;
+  width: 300px;
 }
 .aggies-img {
-  width: 400px;
+  width: 350px;
 }
 .mountaineers-img {
-  width: 400px;
+  width: 300px;
 }
 
 .child-1:hover {
@@ -126,9 +126,15 @@ body {
   font-size: 6rem;
 }
 
-@media screen and (max-width: 600px) {
-  .gallery-card {
+@media screen and (max-width: 375px) {
+  .child {
     width: 90vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    font-size: 3rem;
   }
 }
 
