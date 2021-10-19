@@ -127,14 +127,202 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-  .child {
-    width: 90vw;
+  .parent {
+    width: 200vw;
+    height: 150vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .bama-img {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .georgia-img {
+    width: 55vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .pennstate-img {
+    width: 55vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .sooners-img {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .buckeyes-img {
+    width: 55vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .razorbacks-img {
+    width: 57vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .irish-img {
+    width: 55vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .aggies-img {
+    width: 59vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .mountaineers-img {
+    width: 55vw;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .button {
-    font-size: 3rem;
+  .parent {
+    width: 200vw;
+    height: 70vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bama-img {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .georgia-img {
+    width: 65vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pennstate-img {
+    width: 37vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sooners-img {
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .buckeyes-img {
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .razorbacks-img {
+    width: 77vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .irish-img {
+    width: 43vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aggies-img {
+    width: 53vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mountaineers-img {
+    width: 47vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .parent {
+    width: 200vw;
+    height: 70vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .bama-img {
+    width: 43vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .georgia-img {
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pennstate-img {
+    width: 55vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .sooners-img {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .buckeyes-img {
+    width: 55vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .razorbacks-img {
+    width: 57vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .irish-img {
+    width: 55vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .aggies-img {
+    width: 59vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mountaineers-img {
+    width: 55vw;
+  }
+}
+
+@keyframes picturebounce {
+  0% {
+    transform: scaleY(0.75);
+  }
+  10% {
+    transform: scaleY(1);
+    transform: translate(2rem, 1rem);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  95% {
+  }
+  100% {
   }
 }
 
