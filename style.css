@@ -39,7 +39,6 @@ body,
   margin-bottom: auto;
   top: 4rem;
   left: 65%;
-  z-index: 2;
 }
 .georgia-img {
   width: 375px;
@@ -125,63 +124,34 @@ body {
 .button {
   font-size: 6rem;
 }
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1024px) {
   .parent {
-    width: 200vw;
-    height: 150vw;
+    height: 70vw;
   }
-}
-
-@media screen and (max-width: 375px) {
   .bama-img {
-    width: 50vw;
+    width: 43vw;
   }
-}
-
-@media screen and (max-width: 375px) {
   .georgia-img {
     width: 55vw;
   }
-}
-
-@media screen and (max-width: 375px) {
   .pennstate-img {
     width: 55vw;
   }
-}
-
-@media screen and (max-width: 375px) {
   .sooners-img {
     width: 60vw;
   }
-}
-
-@media screen and (max-width: 375px) {
   .buckeyes-img {
     width: 55vw;
   }
-}
-
-@media screen and (max-width: 375px) {
   .razorbacks-img {
     width: 57vw;
   }
-}
-
-@media screen and (max-width: 375px) {
   .irish-img {
     width: 55vw;
   }
-}
-
-@media screen and (max-width: 375px) {
   .aggies-img {
-    width: 59vw;
+    width: 57vw;
   }
-}
-
-@media screen and (max-width: 375px) {
   .mountaineers-img {
     width: 55vw;
   }
@@ -192,123 +162,64 @@ body {
     width: 200vw;
     height: 70vw;
   }
-}
-
-@media screen and (max-width: 768px) {
   .bama-img {
     width: 40vw;
   }
-}
-
-@media screen and (max-width: 768px) {
   .georgia-img {
-    width: 65vw;
+    width: 75vw;
   }
-}
-
-@media screen and (max-width: 768px) {
   .pennstate-img {
+    width: 27vw;
+  }
+  .sooners-img {
+    width: 35vw;
+  }
+  .buckeyes-img {
     width: 37vw;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .sooners-img {
-    width: 45vw;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .buckeyes-img {
-    width: 45vw;
-  }
-}
-
-@media screen and (max-width: 768px) {
   .razorbacks-img {
     width: 77vw;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .irish-img {
-    width: 43vw;
-  }
-}
-
-@media screen and (max-width: 768px) {
   .aggies-img {
     width: 53vw;
   }
-}
-
-@media screen and (max-width: 768px) {
   .mountaineers-img {
     width: 47vw;
   }
 }
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 375px) {
   .parent {
     width: 200vw;
-    height: 70vw;
+    height: 350vw;
   }
-}
-
-@media screen and (max-width: 1024px) {
   .bama-img {
-    width: 43vw;
+    width: 60vw;
   }
-}
-
-@media screen and (max-width: 1024px) {
   .georgia-img {
-    width: 45vw;
+    width: 55vw;
   }
-}
-
-@media screen and (max-width: 1024px) {
   .pennstate-img {
     width: 55vw;
   }
-}
-
-@media screen and (max-width: 1024px) {
   .sooners-img {
     width: 60vw;
   }
-}
-
-@media screen and (max-width: 1024px) {
   .buckeyes-img {
     width: 55vw;
   }
-}
-
-@media screen and (max-width: 1024px) {
   .razorbacks-img {
     width: 57vw;
   }
-}
-
-@media screen and (max-width: 1024px) {
   .irish-img {
     width: 55vw;
   }
-}
-
-@media screen and (max-width: 1024px) {
   .aggies-img {
     width: 59vw;
   }
-}
-
-@media screen and (max-width: 1024px) {
   .mountaineers-img {
     width: 55vw;
   }
 }
-
 @keyframes picturebounce {
   0% {
     transform: scaleY(0.75);
